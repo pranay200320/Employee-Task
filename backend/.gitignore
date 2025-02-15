@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build files
+dist/
+build/
+.tmp/
+out/
+
+# Database
+*.sqlite
+*.sqlite3
+dump.rdb
+mongodb/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+coverage/
